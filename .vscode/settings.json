@@ -1,0 +1,11 @@
+{
+  // autoprefixerの設定
+  "autoprefixer.options": {
+    "browsers": [
+      "last 2 versions", // 直近2バージョン
+      "ie >= 11", // IE11以上
+      "> 1%" // シェア1%以上
+    ],
+    "grid": "autoplace" // gridに対応
+  }
+}
