@@ -1,14 +1,30 @@
 {
-  // autoprefixerの設定
+  /**
+   * フォーマットの設定
+   */
+  "[css]": {
+    "editor.formatOnSave": false // cssファイルは保存時にフォーマットしない
+  },
+  "[scss]": {
+    "editor.formatOnSave": true // scssファイルは保存時にフォーマットする
+  },
+  /**
+   * autoprefixerの設定
+   */
   "autoprefixer.options": {
     "browsers": [
       "last 2 versions", // 直近2バージョン
       // "ie >= 11", // IE11以上
-      // "> 1%" // シェア1%以上
+      "> 1%", // シェア1%以上
+      "Firefox ESR" // 最新版Firefox
     ],
-    // "grid": "autoplace" // gridに対応
+    "grid": "autoplace" // gridに対応
   },
-  "[css]": {
-    "editor.formatOnSave": false // cssファイルは保存時にフォーマットしない
-  }
+  /**
+   */
+  "csscomb.ignoreFilesOnSave": [], // 除外ファイルの設定
+  "csscomb.syntaxAssociations": {
+    "postcss": "scss" // scssに対応
+  },
+  "csscomb.preset": "./.vscode/csscomb.json", // 設定ファイルの指定
 }
