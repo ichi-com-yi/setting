@@ -3,6 +3,7 @@
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json
+!.vscode/csscomb.json
 *.code-workspace
 
 # Local History for Visual Studio Code
@@ -14,7 +15,8 @@
 .LSOverride
 
 # Icon must end with two \r
-Icon
+Icon
+
 
 # Thumbnails
 ._*
