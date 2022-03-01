@@ -32,10 +32,10 @@
    * liveSassCompileの設定
    */
   "liveSassCompile.settings.autoprefix": [
-     "last 2 versions", // 直近2バージョン
-  // "ie >= 11", // IE11以上
-     "> 1%", // シェア1%以上
-     "Firefox ESR" // 最新版Firefox
+    "last 2 versions", // 直近2バージョン
+    // "ie >= 11", // IE11以上
+    "> 1%", // シェア1%以上
+    "Firefox ESR" // 最新版Firefox
   ],
   "liveSassCompile.settings.excludeList": [ // 除外リスト
     "/**/node_modules/**", // node_modulesファイル
@@ -45,9 +45,9 @@
   "liveSassCompile.settings.generateMap": true, // mapファイルを出すか（true）
   "liveSassCompile.settings.formats": [ // 出力の設定
     {
-      "format": "expanded", // コンパイルルール（普通のcss）
-      "extensionName": ".css", // コンパイル名
-      "savePath": "/css/", // コンパイルディレクトリ
+      "format": "expanded", // フォーマットルール
+      "extensionName": ".css", // コンパイルされたファイルの拡張子
+      "savePath": "/assets/css" // 保存場所のパス
     }
   ]
 }

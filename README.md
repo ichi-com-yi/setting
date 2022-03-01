@@ -17,7 +17,10 @@
 -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --
 
 ## 使用する環境など
-非`node.js`環境です。`prepros`などでサクッとコンパイルして`csscomb`で整形する環境を想定しています。
+非`node.js`環境です。`prepros`やvscodeの拡張機能である`liveSassCompiler`などでサクッとコンパイルして`csscomb`で整形する環境を想定しています。
+
+## 注意点
+`prepros`のみ`dart-sass`に対応しています。`csscomb`のフォーマットは`dart-sass`ですとエラーがでます。`liveSassCompiler`は`dart-sass`には非対応です。
 
 ## フォーマットの実行
 VSCodeのコマンドパレットより`csscomb`を実行。
