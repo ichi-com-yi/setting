@@ -1,6 +1,12 @@
 .test {
   border: 1px;
+  display: grid;
   margin: 1px;
   padding: 1px;
   z-index: 1px;
+
+  div {
+    background: linear-gradient(to bottom, #ffef96 0%, #ffae63 100%);
+    margin-top: 12px;
+  }
 }
