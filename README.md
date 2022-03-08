@@ -52,3 +52,7 @@ VSCodeのコマンドパレットより`csscomb`を実行。
 | 値が0の場合に単位を省略するか（true or false）| "unitless-zero": true, |
 | ベンダープレフィックスを整列するか（true or false）| "vendor-prefix-align": true, |
 | 空のルールセットを残すか（true or false）| "remove-empty-rulesets": true, |
+
+## 追加
+ブランチ`dev1`追加。
+各ファイルにコメントアウトでちょっとした説明を追加。
