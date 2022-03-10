@@ -1,0 +1,36 @@
+@include utilitySpace("margin", "m", "top", "t");
+@include utilitySpace("margin", "m", "right", "r");
+@include utilitySpace("margin", "m", "bottom", "b");
+@include utilitySpace("margin", "m", "left", "l");
+
+// @include media(min, sm) {
+
+//   @include utilitySpace("margin", "m", "top", "t", "sm");
+//   @include utilitySpace("margin", "m", "right", "r", "sm");
+//   @include utilitySpace("margin", "m", "bottom", "b", "sm");
+//   @include utilitySpace("margin", "m", "left", "l", "sm");
+// }
+
+// @include media(min, md) {
+
+//   @include utilitySpace("margin", "m", "top", "t", "md");
+//   @include utilitySpace("margin", "m", "right", "r", "md");
+//   @include utilitySpace("margin", "m", "bottom", "b", "md");
+//   @include utilitySpace("margin", "m", "left", "l", "md");
+// }
+
+// @include media(min, ls) {
+
+//   @include utilitySpace("margin", "m", "top", "t", "ls");
+//   @include utilitySpace("margin", "m", "right", "r", "ls");
+//   @include utilitySpace("margin", "m", "bottom", "b", "ls");
+//   @include utilitySpace("margin", "m", "left", "l", "ls");
+// }
+
+// @include media(min, xl) {
+
+//   @include utilitySpace("margin", "m", "top", "t", "xl");
+//   @include utilitySpace("margin", "m", "right", "r", "xl");
+//   @include utilitySpace("margin", "m", "bottom", "b", "xl");
+//   @include utilitySpace("margin", "m", "left", "l", "xl");
+// }
