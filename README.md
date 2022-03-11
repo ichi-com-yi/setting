@@ -8,7 +8,12 @@
    - `style.css` コンパイルされたcss
    - `style.css.map` コンパイルされたcssのmapファイル
   - `sass` sassが収められたディレクトリ
-    - `style.scss` 触るのはこちらのsassファイル
+    - `base` 基本となる設定やリセット用
+    - `core` 変数、関数やmixin用
+    - `elements` パーツ用
+    - `module` ブロック単位用
+    - `utility` 補助用
+    - `style.scss` インポート用
 - `.editorconfig` EditorConfigの設定ファイル
 - `.gitignore` gitの除外ファイル
 - `prepros.config` preprosの設定ファイル
