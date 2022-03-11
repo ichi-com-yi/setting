@@ -1,3 +1,15 @@
 // 変数
+
+// --- path ---
+// ---
+// 画像までのパス
+// background: url("#{$pathImages}/画像名.jpg")
+// ---
+$pathImages: "../images";
+
+// --- utilityValue ---
+// ---
 // ほしい分だけ値を追加
+// $utilityValue: 0, 2, 4, 8, 12, 16, 20, 24;
+// ---
 $utilityValue: 0, 4, 8, 12, 16, 20, 24, 28, 32, 36, 40;
