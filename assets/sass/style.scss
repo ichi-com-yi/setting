@@ -1,11 +1,20 @@
 // このファイルでインポートする
 
+// core
 @import "core/variables.scss";
 @import "core/function.scss";
 @import "core/mixin.scss";
 
-@import "base/base.scss";
+// base
 @import "base/reset.scss";
+@import "base/base.scss";
 
+// module
+@import "module/section1.scss";
+
+// elements
+@import "elements/button.scss";
+
+// utilities
 @import "utilities/margin.scss";
 @import "utilities/padding.scss";
