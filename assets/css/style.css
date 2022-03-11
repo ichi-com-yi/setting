@@ -12,6 +12,19 @@ html {
   box-sizing: inherit;
 }
 
+/* doc
+---
+title: button
+---
+
+```
+<a class="button"></a>
+```
+*/
+.button {
+  background: #fff;
+}
+
 .u-mt0 {
   margin-top: 0px !important;
 }
