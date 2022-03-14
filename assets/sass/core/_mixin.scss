@@ -1,5 +1,28 @@
 // mixin
 
+// breakpoints
+// ----
+//  @include media(min, md)
+//  @include media(max, md)
+//  @include media(between, xl, lg)
+// ----
+
+@mixin media($type, $bp1, $bp2: 0) {
+  @if ($type == min) {
+    @media screen and (min-width: #{map-get($breakpoints, $bp1)}) {
+      @content;
+    }
+  } @else if ($type == max) {
+    @media screen and (max-width: #{map-get($breakpoints, $bp1)}) {
+      @content;
+    }
+  } @else if ($type == between) {
+    @media screen and (min-width: #{map-get($breakpoints, $bp1)}) and (max-width: #{map-get($breakpoints, $bp2)}) {
+      @content;
+    }
+  }
+}
+
 // utility spaces auto create
 // utility で隙間を margin, padding の class を variable の utilityValue 分自動で生成
 @mixin utilitySpace(
@@ -11,13 +34,13 @@
 ) {
   @if ($media == null) {
     @each $value in $utilityValue {
-      .u-#{$propertyPrefix}#{$anglePrefix}#{$value} {
+      .#{$propertyPrefix}#{$anglePrefix}#{$value} {
         #{$propertyName}-#{$angleName}: #{$value + "px !important"};
       }
     }
   } @else {
     @each $value in $utilityValue {
-      .u-#{$propertyPrefix}#{$anglePrefix}#{$value}-#{$media} {
+      .#{$propertyPrefix}#{$anglePrefix}#{$value}-#{$media} {
         #{$propertyName}-#{$angleName}: #{$value + "px !important"};
       }
     }

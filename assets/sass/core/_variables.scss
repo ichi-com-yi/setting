@@ -7,6 +7,18 @@
 // ---
 $pathImages: "../images";
 
+// --- breakpoints ---
+// ---
+// breakpointsの設定
+// ---
+$breakpoints: (
+  "xs": 480px,
+  "sm": 576px,
+  "md": 768px,
+  "lg": 992px,
+  "xl": 1200px,
+) !default;
+
 // --- utilityValue ---
 // ---
 // ほしい分だけ値を追加
