@@ -65,3 +65,8 @@ VSCodeのコマンドパレットより`csscomb`を実行。
 ### 2022-03-11
 ブランチ`dev2`追加
 `utilities``mixin``variables`を追加
+### 2022-03-14
+ブランチ`dev3`追加
+`mixin`にメディアクエリを追加。
+`variables`にブレイクポイント用の変数を追加。
+`function`に関数を追加。
