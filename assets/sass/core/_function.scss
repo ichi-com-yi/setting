@@ -17,3 +17,17 @@
     @return #{$size/$context}#{$unit};
   }
 }
+
+// ----
+// rem vwなどの計算
+//   font-size: rem(16);
+//   font-size: vw(16);
+// ----
+//
+@function rem($px) {
+  @return ($px / 16) * 1rem;
+}
+
+@function vw($px, $bp) {
+  @return (($px / $bp) * 100) + 0vw;
+}
