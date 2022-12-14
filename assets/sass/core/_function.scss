@@ -1,0 +1,33 @@
+// 自作関数
+
+// ----
+// em % vwなどの計算
+//  font-size: fs(13, 16, "em");
+//  font-size: fs(13, 16, "%");
+//  font-size: fs(13, 16, "vw");
+// ----
+@function fs($size, $context, $unit: em) {
+  @if $unit == "%" {
+    @return #{$size/$context * 100}#{$unit};
+  }
+  // "vw"追加
+  @else if $unit == "vw" {
+    @return #{$size/$context * 100}#{$unit};
+  } @else {
+    @return #{$size/$context}#{$unit};
+  }
+}
+
+// ----
+// rem vwなどの計算
+//   font-size: rem(16);
+//   font-size: vw(16);
+// ----
+//
+@function rem($px) {
+  @return ($px / 16) * 1rem;
+}
+
+@function vw($px, $bp) {
+  @return (($px / $bp) * 100) + 0vw;
+}

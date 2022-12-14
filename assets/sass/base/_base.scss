@@ -1,0 +1,14 @@
+// サイトのベース
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  height: 100%;
+  word-break: break-all;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}

@@ -1,0 +1,36 @@
+@include utilitySpace("padding", "m", "top", "t");
+@include utilitySpace("padding", "m", "right", "r");
+@include utilitySpace("padding", "m", "bottom", "b");
+@include utilitySpace("padding", "m", "left", "l");
+
+// @include media(min, sm) {
+
+//   @include utilitySpace("padding", "m", "top", "t", "sm");
+//   @include utilitySpace("padding", "m", "right", "r", "sm");
+//   @include utilitySpace("padding", "m", "bottom", "b", "sm");
+//   @include utilitySpace("padding", "m", "left", "l", "sm");
+// }
+
+// @include media(min, md) {
+
+//   @include utilitySpace("padding", "m", "top", "t", "md");
+//   @include utilitySpace("padding", "m", "right", "r", "md");
+//   @include utilitySpace("padding", "m", "bottom", "b", "md");
+//   @include utilitySpace("padding", "m", "left", "l", "md");
+// }
+
+// @include media(min, ls) {
+
+//   @include utilitySpace("padding", "m", "top", "t", "ls");
+//   @include utilitySpace("padding", "m", "right", "r", "ls");
+//   @include utilitySpace("padding", "m", "bottom", "b", "ls");
+//   @include utilitySpace("padding", "m", "left", "l", "ls");
+// }
+
+// @include media(min, xl) {
+
+//   @include utilitySpace("padding", "m", "top", "t", "xl");
+//   @include utilitySpace("padding", "m", "right", "r", "xl");
+//   @include utilitySpace("padding", "m", "bottom", "b", "xl");
+//   @include utilitySpace("padding", "m", "left", "l", "xl");
+// }

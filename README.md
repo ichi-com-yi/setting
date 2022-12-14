@@ -8,7 +8,12 @@
    - `style.css` コンパイルされたcss
    - `style.css.map` コンパイルされたcssのmapファイル
   - `sass` sassが収められたディレクトリ
-    - `style.scss` 触るのはこちらのsassファイル
+    - `base` 基本となる設定やリセット用
+    - `core` 変数、関数やmixin用
+    - `elements` パーツ用
+    - `module` ブロック単位用
+    - `utility` 補助用
+    - `style.scss` インポート用
 - `.editorconfig` EditorConfigの設定ファイル
 - `.gitignore` gitの除外ファイル
 - `prepros.config` preprosの設定ファイル
@@ -52,3 +57,20 @@ VSCodeのコマンドパレットより`csscomb`を実行。
 | 値が0の場合に単位を省略するか（true or false）| "unitless-zero": true, |
 | ベンダープレフィックスを整列するか（true or false）| "vendor-prefix-align": true, |
 | 空のルールセットを残すか（true or false）| "remove-empty-rulesets": true, |
+
+## 追加
+ブランチ`dev1`追加。
+各ファイルにコメントアウトでちょっとした説明を追加。
+
+### 2022-03-11
+ブランチ`dev2`追加
+`utilities``mixin``variables`を追加
+### 2022-03-14
+ブランチ`dev3`追加
+`mixin`にメディアクエリを追加。
+`variables`にブレイクポイント用の変数を追加。
+`function`に関数を追加。
+
+### 2022-03-16
+ブランチ`dev4`追加
+`function`に関数を追加。

@@ -1,20 +1,20 @@
-.block {
-  background: red;
-  border: 1px solid #ccc;
-  margin: 20px;
-  padding: 100px;
+// このファイルでインポートする
 
-  &__element {
-    background: blue;
-    border: 1px solid #ccc;
-    margin: 10px;
-    padding: 50px;
+// core
+@import "core/variables.scss";
+@import "core/function.scss";
+@import "core/mixin.scss";
 
-    &--modifier {
-      background: yellow;
-      border: 1px solid #ccc;
-      margin: 10px;
-      padding: 50px;
-    }
-  }
-}
+// base
+@import "base/reset.scss";
+@import "base/base.scss";
+
+// module
+@import "module/section1.scss";
+
+// elements
+@import "elements/button.scss";
+
+// utility
+@import "utility/margin.scss";
+@import "utility/padding.scss";

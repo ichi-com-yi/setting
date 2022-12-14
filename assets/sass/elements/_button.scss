@@ -1,0 +1,17 @@
+// 最小のパーツ
+// ボタンや見出しなど
+// 使い回すパーツなのでhtmlを書いておくと優しさを感じます
+
+/* doc
+---
+title: button
+---
+
+```
+<a class="button"></a>
+```
+*/
+
+.button {
+  background: #fff;
+}
