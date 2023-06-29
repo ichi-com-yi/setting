@@ -70,7 +70,10 @@ VSCodeのコマンドパレットより`csscomb`を実行。
 `mixin`にメディアクエリを追加。
 `variables`にブレイクポイント用の変数を追加。
 `function`に関数を追加。
-
 ### 2022-03-16
 ブランチ`dev4`追加
 `function`に関数を追加。
+### 2023-06-29
+`.vscode`以下`csscomb.json`と`settings.json`最新版に  
+`.gitignore`と`.editorconfig`最新版に
+`.prettierignore`と`.prettierrc`追加
