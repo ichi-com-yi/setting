@@ -1,4 +1,8 @@
 {
+  "exclude": [
+    ".git/**",
+    "node_modules/**"
+  ],
   "always-semicolon": true,
   "block-indent": "  ",
   "color-case": "lower",
@@ -11,6 +15,8 @@
   "sort-order": [
     [
       "$variable",
+      "$forward",
+      "$use",
       "$import",
       "$extend",
       "$include"
